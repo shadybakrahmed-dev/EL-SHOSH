@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shady Bakr — student and aspiring front-end developer building clean, responsive websites with HTML, CSS, and Bootstrap.">
+  <meta name="author" content="Shady Bakr">
+  <meta name="theme-color" content="#081120">
+  <meta property="og:title" content="Shady Bakr | Front-End Developer Portfolio">
+  <meta property="og:description" content="Student and aspiring front-end developer. Explore my skills, projects, and contact details.">
+  <meta property="og:type" content="website">
+  <title>Shady Bakr | Front-End Developer Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top portfolio-nav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">Shady<span class="brand-dot">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-primary btn-sm px-3" href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <header class="hero-section" id="home">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <p class="eyebrow mb-3"><span class="status-dot"></span> OPEN TO LEARNING &amp; OPPORTUNITIES</p>
+            <h1 class="display-3 fw-bold mb-3">Hi, I'm <span class="text-gradient">Shady Bakr</span></h1>
+            <h2 class="h3 text-light-emphasis mb-4">Student &amp; Aspiring Front-End Developer</h2>
+            <p class="hero-copy mb-4">
+              I design and build clean, responsive websites using HTML, CSS, and Bootstrap,
+              with a focus on clear structure, readable code, and a great experience on every screen size.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <a class="btn btn-primary btn-lg" href="#projects">View My Work <span aria-hidden="true">↗</span></a>
+              <a class="btn btn-outline-light btn-lg" href="#contact">Get in Touch</a>
+            </div>
+            <div class="hero-tags mt-4">
+              <span>HTML5</span><span>CSS3</span><span>Bootstrap 5</span><span>Responsive Design</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="profile-card mx-auto">
+              <div class="profile-orbit orbit-one"></div>
+              <div class="profile-orbit orbit-two"></div>
+              <div class="avatar-circle" aria-label="Shady Bakr">
+                <img src="profile.jpg" alt="Portrait of Shady Bakr" onerror="this.remove()">
+                SB
+              </div>
+              <div class="floating-chip chip-top"><span class="chip-icon">&lt;/&gt;</span> Front-End Development</div>
+              <div class="floating-chip chip-bottom"><span class="chip-icon">✦</span> Always Learning</div>
+              <div class="profile-caption">
+                <span class="caption-line"></span>
+                <span>Building skills, one project at a time.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-grid" aria-hidden="true"></div>
+    </header>
+
+    <!-- About -->
+    <section class="section-padding" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Curious mind. <span class="text-gradient">Growing skills.</span></h2>
+        </div>
+        <div class="row gy-4 align-items-start">
+          <div class="col-lg-7">
+            <p class="section-lead">I'm Shady Bakr, a student and aspiring front-end developer passionate about creating useful, attractive, and accessible websites.</p>
+            <p class="body-muted">
+              I'm building a strong foundation in front-end development, with hands-on practice in page structure,
+              styling, and responsive layouts. I learn best by building, so I turn what I study into small projects
+              and keep refining them.
+            </p>
+            <p class="body-muted">
+              My goal is to grow into a professional web developer who writes clean code and delivers
+              polished, user-friendly interfaces.
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <figure class="about-photo">
+              <img src="about-photo.jpg" alt="Shady Bakr smiling, seated in a lounge" loading="lazy" onerror="this.closest('figure').remove()">
+            </figure>
+            <div class="info-panel">
+              <div class="info-row"><span class="info-label">Name</span><span>Shady Bakr</span></div>
+              <div class="info-row"><span class="info-label">Role</span><span>Student &amp; Aspiring Front-End Developer</span></div>
+              <div class="info-row"><span class="info-label">Focus</span><span>Responsive Web Design</span></div>
+              <div class="info-row"><span class="info-label">Tech</span><span>HTML5, CSS3, Bootstrap 5</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section-padding section-soft" id="skills">
+      <div class="container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">SKILLS</p>
+          <h2>Technical <span class="text-gradient">Skills</span></h2>
+          <p class="body-muted mx-auto heading-description">The core front-end technologies I use to build responsive, well-structured pages.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="skill-card h-100">
+              <div class="skill-icon html-icon">&lt;/&gt;</div>
+              <h3>HTML5</h3>
+              <p>Structuring pages with semantic elements, headings, links, images, and forms.</p>
+              <div class="project-tags skill-tags"><span>Semantic markup</span><span>Forms</span><span>Accessibility basics</span></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="skill-card h-100">
+              <div class="skill-icon css-icon">✳</div>
+              <h3>CSS3</h3>
+              <p>Styling layouts with colors, typography, spacing, Flexbox, and responsive rules.</p>
+              <div class="project-tags skill-tags"><span>Flexbox</span><span>Media queries</span><span>Custom properties</span></div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="skill-card h-100">
+              <div class="skill-icon bootstrap-icon">B</div>
+              <h3>Bootstrap</h3>
+              <p>Using the grid, utility classes, and components to create responsive pages faster.</p>
+              <div class="project-tags skill-tags"><span>Grid system</span><span>Components</span><span>Utilities</span></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section-padding" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">PROJECTS</p>
+          <h2>Selected <span class="text-gradient">Projects</span></h2>
+          <p class="body-muted heading-description">A selection of web and UI work that shows how I apply layout, styling, and responsive design.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-art art-one"><div class="mock-window"><span></span><span></span><span></span><div class="mock-lines"></div><div class="mock-block"></div></div></div>
+              <div class="project-content">
+                <span class="project-type">WEB PROJECT</span>
+                <h3>Personal Portfolio</h3>
+                <p>A responsive portfolio website presenting my skills, projects, and contact details — the site you are viewing now.</p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+                <span class="project-status">Responsive · Mobile-first navigation</span>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-art art-two"><div class="weather-widget"><span class="sun-symbol">☀</span><strong>24°</strong><small>Weather UI concept</small><div class="weather-bars"><i></i><i></i><i></i><i></i><i></i></div></div></div>
+              <div class="project-content">
+                <span class="project-type">UI CONCEPT</span>
+                <h3>Weather Dashboard UI</h3>
+                <p>A dashboard interface concept exploring card layouts, spacing, and responsive grids for presenting data clearly.</p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>UI Design</span></div>
+                <span class="project-status">Interface design · Static concept</span>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="project-card h-100">
+              <div class="project-art art-three"><div class="task-widget"><div class="task-title">My Tasks <b>+</b></div><div class="task-item"><i></i><span></span></div><div class="task-item"><i></i><span></span></div><div class="task-item"><i></i><span></span></div></div></div>
+              <div class="project-content">
+                <span class="project-type">UI CONCEPT</span>
+                <h3>Task List Layout</h3>
+                <p>A clean task-list interface concept focused on component design and visual hierarchy.</p>
+                <div class="project-tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+                <span class="project-status">Interface design · Static concept</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section-padding section-soft" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">EDUCATION</p>
+          <h2>Education &amp; <span class="text-gradient">Growth</span></h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Present</span>
+              <h3>Student</h3>
+              <p class="body-muted mb-0">Currently pursuing my studies while developing practical web development skills alongside them.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Self-study</span>
+              <h3>Front-End Development Fundamentals</h3>
+              <p class="body-muted mb-0">Hands-on practice with HTML5, CSS3, responsive design, and Bootstrap through small, focused projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section-padding contact-section" id="contact">
+      <div class="container">
+        <div class="contact-panel">
+          <div class="row gy-4 align-items-center">
+            <div class="col-lg-7">
+              <p class="eyebrow">CONTACT</p>
+              <h2>Let's connect</h2>
+              <p class="body-muted mb-0">Have a question, feedback, or an opportunity to share? I'd be glad to hear from you — reach out through any of the channels here.</p>
+            </div>
+            <div class="col-lg-5 text-lg-end">
+              <a class="btn btn-primary btn-lg" href="mailto:shadybakrahmed@gmail.com">shadybakrahmed@gmail.com <span aria-hidden="true">↗</span></a>
+              <div class="social-links mt-3 justify-content-lg-end">
+                <a class="social-btn whatsapp" href="https://wa.me/201205161784" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.43 15.1L2 22l5.04-1.58A9.9 9.9 0 1 0 12.04 2zm0 18.1a8.2 8.2 0 0 1-4.18-1.14l-.3-.18-3 .94.98-2.92-.2-.31a8.2 8.2 0 1 1 6.7 3.61zm4.5-6.14c-.25-.12-1.46-.72-1.69-.8-.23-.09-.39-.12-.56.12-.16.25-.64.8-.78.97-.14.16-.29.18-.53.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.22-1.46-1.37-1.7-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.41-.56-.42h-.47c-.16 0-.43.06-.65.31-.23.25-.86.85-.86 2.07s.88 2.4 1 2.56c.12.17 1.74 2.65 4.2 3.72.59.25 1.05.4 1.4.52.59.19 1.13.16 1.55.1.47-.07 1.46-.6 1.66-1.18.2-.58.2-1.07.14-1.18-.06-.1-.23-.16-.47-.29z"/></svg>
+                  WhatsApp
+                </a>
+                <a class="social-btn facebook" href="https://www.facebook.com/share/1K5t1hnt2d/" target="_blank" rel="noopener" aria-label="Visit Facebook profile">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.88 11.85v-8.38H7.08V12h3.04V9.36c0-3 1.79-4.67 4.53-4.67 1.31 0 2.68.23 2.68.23v2.95h-1.51c-1.49 0-1.95.93-1.95 1.88V12h3.33l-.53 3.47h-2.8v8.38A12 12 0 0 0 24 12z"/></svg>
+                  Facebook
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <a class="footer-brand" href="#home">Shady<span class="brand-dot">.</span></a>
+      <p class="mb-0">Built with HTML, CSS &amp; Bootstrap.</p>
+      <p class="mb-0">© <span id="year">2026</span> Shady Bakr. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript bundle for the mobile navigation -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
